@@ -1,0 +1,47 @@
+
+// :
+
+// 🔹 1. Adding / Removing Elements
+
+// push() → Add element(s) at the end
+
+// let arr = [1, 2];
+// arr.push(3);  // [1, 2, 3]
+
+
+// pop() → Remove last element
+
+// arr.pop();  // [1, 2]
+
+
+// unshift() → Add element(s) at the start
+
+// arr.unshift(0);  // [0, 1, 2]
+
+
+// shift() → Remove first element
+
+// arr.shift();  // [1, 2]
+
+
+// splice(start, deleteCount, ...items) → Add/Remove at any position
+
+// let nums = [1, 2, 3, 4];
+// nums.splice(1, 2, 9, 8);  // [1, 9, 8, 4]
+
+
+// slice(start, end) → Copy part of an array
+
+// let copy = nums.slice(0, 2);  // [1, 9]
+
+
+// 🔹 2. Searching
+// indexOf(value) → First index of value
+
+// js
+// Copy code
+// [1, 2, 3, 2].indexOf(2); // 1
+
+// includes(value) → Check existence
+
+// [1, 2, 3].includes(2);  // true
